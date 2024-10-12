@@ -5,6 +5,7 @@ alias edit-zsh="nvim ~/.zshrc"
 alias ls="eza --icons=always"
 
 # fnm shell setup
+# sudo ln -s $(which node) /usr/local/bin/node
 eval "$(fnm env --use-on-cd --shell zsh)"
 
 # history setup

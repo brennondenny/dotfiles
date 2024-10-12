@@ -29,6 +29,7 @@
           "fnm"
           "imagemagick"
           "stow"
+          "cocoapods"
           "git-standup"
           "git"
           "neovim"
