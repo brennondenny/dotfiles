@@ -21,22 +21,22 @@
       homebrew = {
         enable = true;
         brews = [
-          "starship"
-          "watchman"
+          "cocoapods"
           "eza"
           "ffmpeg"
-          "zoxide"
+          "ffmpeg"
           "fnm"
-          "imagemagick"
-          "stow"
-          "cocoapods"
+          "gh"
           "git-standup"
           "git"
-          "neovim"
-          "gh"
-          "ffmpeg"
+          "imagemagick"
           "mas"
+          "neovim"
           "python@3.12" 
+          "starship"
+          "stow"
+          "watchman"
+          "zoxide"
           "zsh-autosuggestions"
           "zsh-syntax-highlighting"
         ];
@@ -44,26 +44,29 @@
         [
           "1password"
           "adguard"
-          "amie"
           "aldente"
+          "amie"
           "arc"
           "cleanmymac"
           "cleanshot"
-          "downie"
           "discord"
+          "downie"
           "eloston-chromium"
           "firefox@developer-edition"
-          "font-jetbrains-mono"
+          "flipper"
           "font-jetbrains-mono-nerd-font"
+          "font-jetbrains-mono"
           "font-sn-pro"
           "fork"
           "framer"
           "github"
           "iina"
           "jordanbaird-ice"
+          "music-decoy"
           "numi"
           "obs"
           "openinterminal"
+          "orion"
           "proton-drive"
           "proton-mail"
           "raycast"
@@ -73,18 +76,18 @@
           "teamviewer"
           "typeface"
           "visual-studio-code"
-          "wireshark"
           "warp"
         ];
         taps = [
         ];
         masApps = {
-          parcel = 639968404;
-          mymind = 1532801185;
-          photomator = 1444636541;
-          pixelmator = 1289583905;
           gapplin = 768053424;
           keystroke = 1572206224;
+          mymind = 1532801185;
+          parcel = 639968404;
+          photomator = 1444636541;
+          pixelmator = 1289583905;
+          spring = 6670408493;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
@@ -112,12 +115,12 @@
       system.defaults = {
         dock.appswitcher-all-displays = true;
         dock.autohide = true;
-        dock.autohide-delay = 0.05;
-        dock.autohide-time-modifier = 0.5;
+        dock.autohide-delay = 0.24;
+        dock.autohide-time-modifier = 0.75;
         dock.expose-animation-duration = 1.0;
         dock.mineffect = "scale";
         dock.minimize-to-application = true;
-        dock.orientation = "right";
+        dock.orientation = "bottom";
         dock.show-recents = false;
         finder.FXEnableExtensionChangeWarning = false;
         finder.FXPreferredViewStyle = "clmv";

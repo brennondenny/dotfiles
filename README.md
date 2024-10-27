@@ -18,6 +18,9 @@ cd dotfiles
 ```zsh
 stow .
 ```
+```zsh
+darwin-rebuild switch --flake ~/.config/nix#based
+```
 
 ## Dev Tools
 
