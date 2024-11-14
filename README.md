@@ -3,6 +3,8 @@
 ## Installation
 Installs CLI Tools, Applications, and updates MacOS settings
 
+Install XCode
+
 ```zsh
 $ sh <(curl -L https://nixos.org/nix/install)
 ```
@@ -10,7 +12,7 @@ $ sh <(curl -L https://nixos.org/nix/install)
 $ nix-shell -p git --run 'git clone https://github.com/brennondenny/dotfiles.git dotfiles'
 ```
 ```zsh
-$ nix run nix-darwin --extra-experimental-features 'nix-command flakes' -- switch --flake ~/dotfiles/nix/darwin#based
+$ nix run nix-darwin --extra-experimental-features 'nix-command flakes' -- switch --flake ~/dotfiles/nix#based
 ```
 ```zsh
 cd dotfiles
@@ -21,15 +23,3 @@ stow .
 ```zsh
 darwin-rebuild switch --flake ~/.config/nix#based
 ```
-
-## Dev Tools
-
-
-### VS Code
-
-#### Extensions
-#### Theme
-#### Settings
-
-### Warp (Terminal)
-#### Theme
